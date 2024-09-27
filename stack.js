@@ -29,3 +29,6 @@ if(reversedWord === word){
 else{
     console.log(word + " is not a palindrome.")
 }
+
+
+/*STACK IN JS*/
