@@ -13,7 +13,8 @@ functions:  push = for placing data onto a stack
 Implementation of a stack in JavaScript involves creating a data structure that follows the Last-In-First-Out (LIFO) principle,
 where elements are added and removed from the same end. We use stacks to manage function calls, undo functionality, and parse algorithms
 efficiently in JavaScript applications
-*/
+*/ 
+
 
 var letters = [];
 var word = "racecar";
