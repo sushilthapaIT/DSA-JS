@@ -1,0 +1,3 @@
+/*
+To find the missing number in a given integer from array
+*/
