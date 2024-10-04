@@ -25,4 +25,4 @@ Examples:
 var x = 7;
 var y = '7';
 
-console.log(x==y); // the result will be false it compares the value and its data types since one is integer and another one is string it will return false.
+console.log(x===y); // the result will be false it compares the value and its data types since one is integer and another one is string it will return false.
