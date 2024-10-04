@@ -9,5 +9,11 @@ const maxFunction = (arr) => {
         return preValue > currValue ? preValue:currValue;
     })
 }
-
 console.log(maxFunction(arrNumber))
+
+const minFunction = (arr) => {
+    return arr.reduce(function(previousValue, currentValue){
+        return previousValue < currentValue ? previousValue:currentValue;
+    })
+}
+console.log(minFunction(arrNumber));
