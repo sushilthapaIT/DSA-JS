@@ -1,0 +1,3 @@
+/*
+To find the max and min value in a given array
+*/
