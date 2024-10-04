@@ -37,8 +37,11 @@ console.log(minValue(arrNum));
 const intArray = [1,2,3,4,5];
 
 const largeValue = (arr) => {
-    firstLargestValue=Math.max(...arr);
-    return firstLargestValue;
+    const firstLargestValue = Math.max(...arr);
+    const index = arr.indexOf(firstLargestValue);
+    arr.splice(index, 1);
+    const secondLargestValue = Math.max(...arr);
+    return {secondLargestValue, index};
 }
 
 console.log(largeValue(intArray))
