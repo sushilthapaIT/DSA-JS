@@ -23,3 +23,14 @@ const exampleArray = [
     {name: "rhitu", age: 24},
     {name: "raha", age: 19},
 ];
+
+const filterItems = exampleArray.filter((item) => {
+    return item.age < 30; // this will return all the age that are less that 30 from a object array
+})
+
+const findItems = exampleArray.find((item) => {
+    return item.age < 30; // this will return the first matched age that are less that 30 from a object array
+})
+
+console.log(findItems);
+console.log(filterItems);
